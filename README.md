@@ -1,18 +1,26 @@
 # WCAG Audit 
 
-Doe een WCAG audit op een bestaande website uit je eigen omgeving en rapporteer daarover.
+Voor de website van de Hogeschool van Amsterdam (HvA) (hva.nl) is een Lighthouse Accessibility-test uitgevoerd. De website scoort uitstekend met een accessibility-score van 99%.
 
-De instructies van deze opdracht staan in [WIKI](https://github.com/fdnd-task/wcag-audit/wiki).
+Link website: https://www.hva.nl/
+
+<img width="400" height="auto" alt="Screenshot 2026-10-21 at 10 27 09" src="https://github.com/user-attachments/assets/d18b9164-311b-4230-8621-1de1350da84d" />
 
 
-## Titel Website
+## Belangrijke bevindingen & verbeterpunten
 
-Welke website heb je getest? Beschrijf de website en voeg een screenshot toe.
+Uit de geautomatiseerde test kwamen de volgende aandachtspunten naar voren:
+1. beeldingen en alt-teksten: Bij deze afbeelding ontbreekt een duidelijke beschrijving binnen het alt-attribuut (<alt="...">). Hierdoor kan een screenreader niet goed voorlezen wat er op de afbeelding te zien is
+<img width="400" height="auto" alt="Screenshot 2026-10-21 at 10 16 07" src="https://github.com/user-attachments/assets/701af6fd-a5f8-405f-9ddc-aac385147ffe" />
 
-Toon een screenshot van het Lighthouse Accessibility testresultaat.
 
-Schrijf een samenvatting van de testbevindingen, en link naar je Wiki voor de volledige documentatie.
+2. Uitgevoerde handmatige tests
+Naast de geautomatiseerde Lighthouse-test zijn de volgende handmatige controles op de HvA-website uitgevoerd:
+* Toetsenbordnavigatie: De gehele website is door te lopen via de Tab-toets (focus-statussen werken naar behoren).
+* Screenreader-compatibiliteit: De pagina's zijn correct te navigeren en te interpreteren met hulpbronnen voor slechtzienden.
+* Visuele toegankelijkheid: Animaties functioneren correct en het kleurcontrast voldoet aan de richtlijnen voor leesbaarheid.
 
-## Licentie
+<img width="400" height="auto" alt="Screenshot 2026-10-21 at 10 31 51" src="https://github.com/user-attachments/assets/260088fd-d2b5-454e-b6ad-a9f5257e62c5" />
+
 
 This project is licensed under the terms of the [MIT license](./LICENSE).
